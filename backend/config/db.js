@@ -6,7 +6,7 @@ const connectDB = async () => {
   try {
     // Try connecting to MongoDB using mongoose
     // This is your local database URL: mongodb://127.0.0.1:27017/skilleraX
-    await mongoose.connect("mongodb://127.0.0.1:27017/skilleraX");
+    await mongoose.connect("mongodb://127.0.0.1:27017/skillerax");
 
     // If connection is successful
     console.log("MongoDB Connected Successfully");
